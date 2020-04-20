@@ -75,58 +75,64 @@ public class TicTacToe {
     }
 
     private static boolean checkWin(char c) {
-        return (checkVerticalWin(c) || checkHorizonWin(c) || checkLeftDownWin(c));
-    }
-
-    private static boolean checkHorizonWin(char c) {
-        int win = 0;
         for (int y = 0; y < fieldSizeY; y++) {
-            win = 0;
             for (int x = 0; x < fieldSizeX; x++) {
-                if (fieldSizeX - x >= SIZE_WIN || field[y][x] == c) {
-                    if (field[y][x] == c) win++;
-                    if (win >= SIZE_WIN) return true;
-                } else {
-                    win = 0;
-                }
-            }
-        }
-        return false;
-    }
+                if (field[y][x] == c) {
+                    if (fieldSizeY - y >= SIZE_WIN) {
+                        if (checkWinVertical(c, y, x)) return true;
 
-    private static boolean checkVerticalWin(char c) {
-        int win = 0;
-        for (int y = 0; y < fieldSizeY; y++) {
-            win = 0;
-            for (int x = 0; x < fieldSizeX; x++) {
-                if (fieldSizeX - x >= SIZE_WIN || field[x][y] == c) {
-                    if (field[x][y] == c) win++;
-                    if (win >= SIZE_WIN) return true;
-                } else {
-                    win = 0;
-                }
-            }
-        }
-        return false;
-    }
-
-    private static boolean checkLeftDownWin(char c) {
-        int win = 0;
-        for (int y = fieldSizeY; y >= 0; y--) {
-            win = 0;
-            for (int x = 0; x < fieldSizeX; x++) {
-                if((x+y)==field.length-1) {
-                    if (fieldSizeX - x >= SIZE_WIN || field[y][x] == c) {
-                        if (field[y][x] == c) win++;
-                        if (win >= SIZE_WIN) return true;
-                    } else {
-                        win = 0;
+                        if (fieldSizeX - x >= SIZE_WIN) {
+                            if (checkWinLeftDown(c, y, x)) return true;
+                        }
+                        if (x >= SIZE_WIN) {
+                            if (checkWinRightUp(c, y, x)) return true;
+                        }
+                    }
+                    if (fieldSizeX - x >= SIZE_WIN) {
+                        if (checkWinHorizon(c, y, x)) return true;
                     }
                 }
             }
         }
         return false;
     }
+
+    private static boolean checkWinHorizon(char c, int y, int x) {
+        int win = 0;
+        for (int i = 0; i < SIZE_WIN; i++) {
+            if (field[y][x+i] == c) {
+                win++;
+            }
+        }
+        return win >= SIZE_WIN;
+    }
+
+    private static boolean checkWinVertical(char c, int y, int x) {
+        int win = 0;
+        for (int i = 0; i < SIZE_WIN; i++) {
+            if (field[y+i][x] == c) {
+                win++;
+            }
+        }
+        return win >= SIZE_WIN;
+    }
+
+    private static boolean checkWinLeftDown(char c, int y, int x) {
+        int win = 0;
+        for (int i = 0; i < SIZE_WIN; i++) {
+            if (field[y + i][x + i] == c) win++;
+        }
+        return win >= SIZE_WIN;
+    }
+
+    private static boolean checkWinRightUp(char c, int y, int x) {
+        int win = 0;
+        for (int i = 0; i < SIZE_WIN; i++) {
+            if (field[y + i][x - i] == c) win++;
+        }
+        return win >= SIZE_WIN;
+    }
+
 
     private static boolean isDraw() {
         for (int y = 0; y < fieldSizeY; y++) {
