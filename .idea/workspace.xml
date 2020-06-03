@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5750c59e-9423-48a8-bf68-7d9d000477e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Cross.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Cross/META-INF/Cross.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/abramov/gui/GameGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/abramov/gui/GameWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/abramov/gui/MapField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/abramov/gui/Settings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/abramov/gui/MapField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/abramov/gui/MapField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/abramov/gui/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/abramov/gui/Settings.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,23 +20,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/abramov/game/TicTacToe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1564">
-              <caret line="97" column="5" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
+            <state relative-caret-position="242">
+              <caret line="136" column="6" selection-start-line="136" selection-start-column="6" selection-end-line="136" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1969#1970#0" expanded="true" />
+                <element signature="e#2016#2017#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/abramov/gui/GameGUI.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ru/abramov/gui/MapField.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="-697">
+              <caret line="37" column="42" lean-forward="true" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
               <folding>
-                <element signature="e#130#131#0" expanded="true" />
-                <element signature="e#162#163#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1134#1283#0" expanded="true" />
+                <element signature="e#1282#1283#0" expanded="true" />
+                <element signature="e#1589#1673#1" />
+                <element signature="e#1720#1804#1" />
+                <element signature="e#5991#5992#0" expanded="true" />
+                <element signature="e#6087#6088#0" expanded="true" />
+                <element signature="method#isDraw#0;class#MapField#0" />
+                <element signature="method#aiTurn#0;class#MapField#0" />
+                <element signature="method#turnAIWinCell#0;class#MapField#0" />
+                <element signature="method#turnHumanWinCell#0;class#MapField#0" />
+                <element signature="method#checkWin#0;class#MapField#0" />
+                <element signature="method#checkLine#0;class#MapField#0" />
               </folding>
             </state>
           </provider>
@@ -53,33 +58,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/abramov/gui/GameWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="418">
+              <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#GameWindow#0;class#GameWindow#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/abramov/gui/MapField.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/abramov/gui/Settings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+            <state relative-caret-position="-316">
+              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,28 +94,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ru/abramov/game/TicTacToe.java" />
         <option value="$PROJECT_DIR$/src/ru/abramov/gui/GameGUI.java" />
+        <option value="$PROJECT_DIR$/src/ru/abramov/gui/GameWindow.java" />
+        <option value="$PROJECT_DIR$/src/ru/abramov/game/Kata.java" />
+        <option value="$PROJECT_DIR$/src/ru/abramov/game/TicTacToe.java" />
         <option value="$PROJECT_DIR$/src/ru/abramov/gui/MapField.java" />
         <option value="$PROJECT_DIR$/src/ru/abramov/gui/Settings.java" />
-        <option value="$PROJECT_DIR$/src/ru/abramov/gui/GameWindow.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/Cross.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1074" />
-    <option name="width" value="853" />
+    <option name="x" value="1135" />
+    <option name="width" value="792" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -132,6 +114,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,12 +152,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CodeWars/CodeWars" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -238,23 +221,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1074" y="0" width="853" height="1047" extended-state="0" />
+    <frame x="1135" y="0" width="792" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Learn" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.29508197" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.35519126" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="2" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.32932165" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32932165" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32932165" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39934355" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -274,16 +258,16 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Learn" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.28751576" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.35519126" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="2" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.32932165" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32932165" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32932165" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39934355" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -298,36 +282,15 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout-to-restore>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ru/abramov/game/TicTacToe.java</url>
-          <line>80</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/abramov/gui.java" />
-    <entry file="file://$PROJECT_DIR$/src/ru/abramov/game/TicTacToe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
-          <caret line="97" column="5" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/abramov/game/Kata.java" />
     <entry file="file://$PROJECT_DIR$/src/ru/abramov/gui/GameGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="119">
           <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding>
             <element signature="e#130#131#0" expanded="true" />
@@ -336,21 +299,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/abramov/gui/GameWindow.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/abramov/game/TicTacToe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="242">
+          <caret line="136" column="6" selection-start-line="136" selection-start-column="6" selection-end-line="136" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#GameWindow#0;class#GameWindow#0" />
+            <element signature="e#1969#1970#0" expanded="true" />
+            <element signature="e#2016#2017#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/abramov/gui/MapField.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/awt/Graphics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        <state relative-caret-position="-5312">
+          <caret line="415" column="25" selection-start-line="415" selection-start-column="25" selection-end-line="415" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/abramov/gui/GameWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -359,12 +330,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/abramov/gui/Settings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+        <state relative-caret-position="-316">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2767#2768#0" expanded="true" />
-            <element signature="e#2862#2863#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/abramov/gui/MapField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-697">
+          <caret line="37" column="42" lean-forward="true" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1134#1283#0" expanded="true" />
+            <element signature="e#1282#1283#0" expanded="true" />
+            <element signature="e#1589#1673#1" />
+            <element signature="e#1720#1804#1" />
+            <element signature="e#5991#5992#0" expanded="true" />
+            <element signature="e#6087#6088#0" expanded="true" />
+            <element signature="method#isDraw#0;class#MapField#0" />
+            <element signature="method#aiTurn#0;class#MapField#0" />
+            <element signature="method#turnAIWinCell#0;class#MapField#0" />
+            <element signature="method#turnHumanWinCell#0;class#MapField#0" />
+            <element signature="method#checkWin#0;class#MapField#0" />
+            <element signature="method#checkLine#0;class#MapField#0" />
           </folding>
         </state>
       </provider>
